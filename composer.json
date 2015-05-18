@@ -1,0 +1,20 @@
+{
+    "name": "helicon-os/uuid",
+    "description": "Generic basic UUID Generator for PHP with additional integration support for Yii2",
+    "authors": [
+        {
+            "name": "Andreas Prucha, Helicon Software Development",
+            "email": "prucha@helicon.co.at"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "require-dev": {
+        "yiisoft/yii2": "*",
+        "phpunit/phpunit": "dev-master"
+    },
+  "autoload": {
+        "psr-4": {"helicon\\uuid\\": "lib/"}
+    }    
+}
