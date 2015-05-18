@@ -36,7 +36,7 @@ class UtilTest extends \PHPUnit_Framework_TestCase
     public function testGenerateDefaultFormat()
     {
         $uuid = \helicon\uuid\Util::generate();
-        $this->assertTrue(\helicon\uuid\Util::validateUuid($uuid, helicon\uuid\Util::FORMAT_HEX_GROUPED));
+        $this->assertTrue(\helicon\uuid\Util::validateUuid($uuid, helicon\uuid\Util::FORMAT_HEX_SHORT));
     }
 
     public function testGenerateV4Short()

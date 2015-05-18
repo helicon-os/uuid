@@ -116,7 +116,7 @@ class Util
     /**
      * @var integer UUID format used by default 
      */
-    public static $defaultFormat = self::FORMAT_HEX_GROUPED;
+    public static $defaultFormat = self::FORMAT_HEX_SHORT;
 
     /**
      * @var integer UUID version used by default 
@@ -361,7 +361,7 @@ class Util
         $b = pack('Nnn', (int) $tsSec, 
                 (int) (floor($tsFrac * 0xFFFF) & 0xFFFF), 
                 self::$v4AscSubCounter & 0xFFFF) .
-                self::randomBytes(10, self::$defaultRandomGenerator);
+                self::randomBytes(8, self::$defaultRandomGenerator);
 
         $b[6] = chr(ord($b[6]) & 0x0F | 0x40);
         $b[8] = chr(ord($b[8]) & 0x3F | 0x80);
