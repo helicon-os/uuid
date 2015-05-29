@@ -1,6 +1,7 @@
 {
     "name": "helicon-os/uuid",
     "description": "Generic basic UUID Generator for PHP with additional integration support for Yii2",
+    "license": "BSD-2-Clause",
     "authors": [
         {
             "name": "Andreas Prucha, Helicon Software Development",
