@@ -1,6 +1,7 @@
 {
   "name": "helicon-os/uuid",
-  "description": "Generic basic UUID Generator for PHP with various output formats like 16byte binary, various hex formats (compact, grouped, etc), base32-like compact. V4 Random UUIDs and Sequential UUIDs can be generated.",
+  "description": "Generic basic UUID Generator for PHP with various output formats like 16byte binary, hex formats (compact, grouped, ...), base32-like and base64-like. V4 Random UUIDs and Sequential UUIDs can be generated.",
+  "keywords": ["uuid", "guid", "RFC 4122", "generator"],
   "license": "BSD-2-Clause",
   "authors": [
     {
