@@ -1,20 +1,22 @@
 {
-    "name": "helicon-os/uuid",
-    "description": "Generic basic UUID Generator for PHP",
-    "license": "BSD-2-Clause",
-    "authors": [
-        {
-            "name": "Andreas Prucha, Helicon Software Development",
-            "email": "prucha@helicon.co.at"
-        }
-    ],
-    "require": {
-        "php": ">=5.3.0"
-    },
-    "require-dev": {
-        "phpunit/phpunit": "dev-master"
-    },
+  "name": "helicon-os/uuid",
+  "description": "Generic basic UUID Generator for PHP with various output formats like 16byte binary, various hex formats (compact, grouped, etc), base32-like compact. V4 Random UUIDs and Sequential UUIDs can be generated.",
+  "license": "BSD-2-Clause",
+  "authors": [
+    {
+      "name": "Andreas Prucha, Helicon Software Development",
+      "email": "prucha@helicon.co.at"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "dev-master"
+  },
   "autoload": {
-        "psr-4": {"helicon\\uuid\\": "lib/"}
-    }    
+    "psr-4": {
+      "helicon\\uuid\\": "lib/"
+    }
+  }
 }
